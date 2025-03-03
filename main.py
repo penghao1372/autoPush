@@ -93,8 +93,10 @@ def upload_permanent_image(access_token, image_path):
         raise Exception(f"上传图片异常：{str(e)}")
 
 def main():
-    appid = "wx6c9eb677611827ac"
-    appsecret = "f2f7e9d20928ca330cdad93c3f2ddb96"
+    #微信公众号appid
+    appid = "xx"
+    #微信公众号秘钥
+    appsecret = "xx"
     try:
         # 获取凭证
         access_token = get_access_token(appid, appsecret)
